@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="combinations.css" />
+    <title>Css Combinators Concept</title>
+  </head>
+  <body>
+    <div>
+      <div class="main">
+        <p class="label"><b>1. General Sibling Selector(~)</b></p>
+        <p>
+          The general sibling combinator (~) separates two selectors and matches
+          all iterations of the second element, that are following the first
+          element (though not necessarily immediately), and are children of the
+          same parent element
+        </p>
+        <div class="gss">General Sibling Selector</div>
+        <p>Combinators</p>
+        <div class="gss">
+          <div class="gss">child div content</div>
+          <p>Lorem</p>
+        </div>
+        <p>Ipsum</p>
+        <p>Something</p>
+      </div>
+
+      <div class="main">
+        <p class="label"><b>2. Adjacent Sibling Selector(+)</b></p>
+        <p>
+          The adjacent sibling combinator (+) separates two selectors and
+          matches the second element only if it immediately follows the first
+          element, and both are children of the same parent element
+        </p>
+        <div class="adj">Adjacent sibling selector property</div>
+        <p class="adj1">Combinators</p>
+        <div class="adj">
+          <div class="adj">child div content</div>
+          <p class="adj1">Lorem</p>
+        </div>
+        <p class="adj1">Ipsum</p>
+        <p class="adj1">Something</p>
+      </div>
+
+      <div class="main">
+        <p class="label"><b>3. Child Selector(>)</b></p>
+        <p>
+          The child selector selects all elements that are the children of a
+          specified element.
+        </p>
+        <div class="cs">Child selector property</div>
+        <p class="cs1">Combinators</p>
+        <div class="cs">
+          <div class="cs">child div content</div>
+          <p class="cs1">Lorem</p>
+        </div>
+        <p class="cs1">Ipsum</p>
+        <p class="cs1">Something</p>
+      </div>
+
+      <div class="main">
+        <p class="label"><b>4. Descendant Selector( )</b></p>
+        <p>
+          The descendant selector matches all elements that are descendants of a
+          specified element.
+        </p>
+        <div class="ds">Descendant selector property</div>
+        <p class="ds1">Combinators</p>
+        <div class="ds">
+          <div class="ds">child div content</div>
+          <p class="ds1">Lorem</p>
+          <p class="ds1">Descendant Selector</p>
+        </div>
+        <p class="ds1">Ipsum</p>
+        <p class="ds1">Something</p>
+      </div>
+    </div>
+  </body>
+</html>

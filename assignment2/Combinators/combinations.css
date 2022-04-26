@@ -1,0 +1,78 @@
+* {
+    background-color: lightblue;
+  }
+  
+  #heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+  
+  .main {
+    margin-left: 50px;
+    margin-right: 40px;
+  }
+  .label {
+    margin-top: 60px;
+    text-decoration: underline;
+  }
+  
+  .gss ~ p {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+  }
+  .gss {
+    text-align: center;
+  }
+  
+  .adj + .adj1 {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .adj {
+    text-align: center;
+  }
+  
+  .adj1 {
+    text-align: center;
+  }
+  
+  .cs > .cs1 {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .cs {
+    text-align: center;
+  }
+  
+  .cs1 {
+    text-align: center;
+  }
+  
+  .ds .ds1 {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .ds {
+    text-align: center;
+  }
+  
+  .ds1 {
+    text-align: center;
+  }

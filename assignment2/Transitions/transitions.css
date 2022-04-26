@@ -1,0 +1,55 @@
+* {
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .main1,
+  .main2 {
+    width: 98%;
+    height: 43vh;
+  }
+  
+  .part1,
+  .part2,
+  .part3,
+  .part4 {
+    display: inline;
+    width: 100%;
+    float: left;
+    margin: 2%;
+    width: 46%;
+    height: 96%;
+    border-radius: 10px;
+    transition: linear 1s ease-in-out;
+  }
+  
+  .part1:hover{
+      transform: translateX(1rem);
+  }
+  
+  .part2:hover{
+      transform: scale(1.1);
+  }
+  
+  .part3:hover{
+      transform: rotate(360deg);
+  }
+  
+  .part4:hover{
+      transform: skew(10deg,20deg);
+  }
+  
+  .zin{
+      background-color: red;
+      z-index: 10;
+      position: absolute;
+      margin: 18rem;
+      margin-left: 30rem;
+  }

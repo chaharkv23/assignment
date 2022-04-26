@@ -1,0 +1,92 @@
+body {
+    background-color: #ecf0f3;
+  }
+  
+  header {
+    background-color: rgb(27, 25, 25);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: arial;
+    flex: 40px;
+    width: 98.6%;
+    position: fixed;
+    top: 0%;
+  }
+  .banner {
+    background-color: rgb(81, 188, 221);
+    color: aliceblue;
+    text-align: center;
+    padding: 20vw;
+    font-size: 50px;
+    font-family: arial;
+    margin: 10px 0px;
+  }
+  /*  */
+  h3 {
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .dot {
+    height: 20vw;
+    margin: 32px;
+    width: 20vw;
+    background-color: rgb(168, 119, 59);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .main {
+    background-color: grey;
+    width: 450px;
+    color: #fff;
+    padding: 150px;
+    font-family: arial;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    position: relative;
+  }
+  .small-container {
+    display: block;
+  }
+  
+  .other {
+    background-color: peru;
+    width: 50vw;
+    height: 10%;
+    color: #fff;
+    padding: 45px 0 30px 0;
+    font-family: arial;
+    text-align: center;
+    margin: 0px 0 10px 10px;
+  }
+  
+  .cards {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  .card {
+    padding: 40px;
+    width: 22%;
+    margin: 10px;
+    height: 250px;
+    background-color: orangered;
+  }
+  
+  footer {
+    background-color: plum;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-family: arial;
+  }
+  

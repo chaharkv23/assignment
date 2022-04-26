@@ -1,0 +1,35 @@
+*{
+    background-color: lightblue;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main1 p {
+    border: 2px solid gray;
+  }
+  
+  body .main1 .text {
+    color: black;
+  }
+  
+  body .main1 #para2 {
+    color: rgb(60, 23, 207);
+  }
+  
+  .main2 .text {
+    color: rgb(43, 187, 21);
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+  }
+  
+  .main2 .text {
+    color: black;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+  }

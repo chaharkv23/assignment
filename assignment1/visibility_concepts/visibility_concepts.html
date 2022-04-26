@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility Concepts</title>
+    <link rel="stylesheet" href="visibility_concepts.css">
+</head>
+<body>
+    <div>
+        <div id = "position">
+            <h2 style = "display: flex; justify-content: center;">Position Properties</h2>
+            <h3>Static Position</h3>
+            <div class="static">
+                This div element with static position
+            </div>
+            <h3>
+                Relative Position
+            </h3>
+            <div class = "relative">
+                The div elelemt with relative Position
+            </div>
+            <h3>Fixed Position</h3>
+            <div class="fixed">
+                Can see the effect of page with scrolling for static div
+            </div><br>
+            <h3>
+                Absolute Position
+            </h3>
+            <div class="relative1">Div element with relative position;
+                <div class="absolute">Div element with absolute position</div>
+            </div> 
+        </div>
+        <div id = "float">
+            <h2 style = "display: flex; justify-content: center;">Float properties</h2>
+            <h3>Float Right</h3>
+            <p><img src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style = "float:right; width: 200px; height: 100px" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quam! Laboriosam nemo, provident vero necessitatibus dignissimos omnis magni cum modi delectus quaerat sit soluta, corrupti enim eos quod. Nam facilis nisi ratione rerum ad iusto fugiat, tenetur assumenda temporibus iure porro id neque debitis sit. Sequi nostrum labore pariatur repellat!</p>
+            <h3>Float Left</h3>
+            <p><img src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style = "float:left; width: 200px; height: 100px" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quam! Laboriosam nemo, provident vero necessitatibus dignissimos omnis magni cum modi delectus quaerat sit soluta, corrupti enim eos quod. Nam facilis nisi ratione rerum ad iusto fugiat, tenetur assumenda temporibus iure porro id neque debitis sit. Sequi nostrum labore pariatur repellat!</p>
+        </div><br>
+        <div id="display">
+            <h2 style = "display: flex; justify-content: center;">Display Properties</h2>
+            <h3>Display inline</h3>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <p class = "in">Hello</p> Inventore ab commodi eos officiis excepturi modi, iure ipsum! Tempore, facilis libero.
+            <h3>Display block</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<p class = "bl">HELLO</p> Mollitia saepe minus reiciendis ipsum iusto, vero blanditiis dolor cupiditate impedit sint.
+            <h3>Display inherit</h3>
+            <div style = "display:inline">
+                <p style = "display: inherit;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, repellendus.</p>
+                <p style = "display: inherit;">Optio quam, quaerat iure quos repudiandae blanditiis tempore nemo praesentium ratione nihil!</p>
+            </div>
+            <h3>
+                Display flex
+            </h3>
+            <h4>Flex direction row.</h4>
+            <div class = "row">
+                <div style = "height:50px; width: 50px; border:2px solid aqua"></div>
+                <div style = "height:50px; width: 50px; border:2px solid orange"></div>
+                <div style = "height:50px; width: 50px; border:2px solid green"></div>
+                <div style = "height:50px; width: 50px; border:2px solid red"></div>
+            </div>
+            <h4>Flex Direction Column</h4>
+            <div class = "col">
+                <div style = "height:50px; width: 50px; border:2px solid pink"></div>
+                <div style = "height:50px; width: 50px; border:2px solid blue"></div>
+                <div style = "height:50px; width: 50px; border:2px solid goldenrod"></div>
+                <div style = "height:50px; width: 50px; border:2px solid black"></div>
+            </div>
+        </div>
+        <div class = "visibility">
+            <h2 style = "display:flex; justify-content: center;">Visibility Properties</h2>
+            <h3>Visibility None</h3>
+            <h4 class = "hidden">Hidden heading</h4>
+            <h3>Visibility Visible</h3>
+            <h4 class = "visible">
+                Visible Heading
+            </h4>
+        </div>
+    </div>
+</body>
+</html>
